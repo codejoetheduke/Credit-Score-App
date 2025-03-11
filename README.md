@@ -1,5 +1,9 @@
 # Credit Score App And Documentation
 
+![Capture](https://github.com/user-attachments/assets/4dedf69c-0b1a-4049-a7af-db8a22317ee4)
+
+# Play Video:
+
 https://github.com/user-attachments/assets/37d80f01-0124-43bd-88bc-67c38054a9f4
 
 # 📊 Credit Score App
