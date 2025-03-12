@@ -9,9 +9,13 @@ from xgboost import XGBClassifier
 from sklearn.base import BaseEstimator, TransformerMixin
 
 # Load data
-train = pd.read_csv("Datasets\Train.csv")
-test = pd.read_csv("Datasets\Test.csv")
-indicator = pd.read_csv("Datasets\economic_indicators.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Get script directory
+dataset_path = os.path.join(BASE_DIR, "Datasets", "Train.csv")
+indicator_path = os.path.join(BASE_DIR, "Datasets", "economic_indicators.csv")
+
+train = pd.read_csv(dataset_path)
+# test = pd.read_csv("Datasets\Test.csv")
+indicator = pd.read_csv(indicator_path)
 
 X, y = train.drop(columns='target'), train['target']
 
