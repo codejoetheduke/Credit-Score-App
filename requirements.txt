@@ -1,0 +1,10 @@
+uvicorn
+fastapi
+pandas
+numpy
+scikit-learn
+xgboost
+pydantic
+requests
+python-dotenv
+joblib
